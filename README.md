@@ -1,0 +1,5 @@
+To launch:
+
+```
+> dotnet run .
+```
