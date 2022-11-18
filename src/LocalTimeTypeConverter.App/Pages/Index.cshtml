@@ -1,0 +1,16 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <p>@Model.Message</p>
+    <form method="post">
+        <label>
+            Local Time (format <code>HH:mm:ss</code> good, <code>HH:mm</code> boom)
+            <input asp-for="Example!.Time" type="text"/>
+        </label>
+        <input type="submit"/>
+    </form>
+</div>
